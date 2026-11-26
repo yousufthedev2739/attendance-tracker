@@ -138,3 +138,12 @@ for(let i = 1; i < 11; i += 1){
         <p>${subjects[class_code]} percentage : ${percentage}%</p>
     `
 }
+let keysInClassInfo = Object.keys(classes_info)
+for(let i = 0; i < keysInClassInfo.length ; i++){
+    document.querySelector('.other-info').innerHTML += `
+    <p>${keysInClassInfo[i]} :</p>
+    <p>classes absent${classes_info[keysInClassInfo[i]].classes_absent}</p> 
+    <p>classes present${classes_info[keysInClassInfo[i]].classes_present}</p> 
+    <p>total classes${classes_info[keysInClassInfo[i]].total_confirmed_classes}</p> 
+    `
+}

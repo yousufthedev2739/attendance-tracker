@@ -1,3 +1,5 @@
+
+
 .attendance-percentage-container{
     width: 200px;
     height: 100px;
@@ -11,5 +13,5 @@
 }
 body{
     padding: 0px;
-    margin: 0px;
+    margin: none;
 }
