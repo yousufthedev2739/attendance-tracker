@@ -51,6 +51,7 @@ let absent_class = [
     {date :'2026-11-13', period : 'all'}
     ,{date :'2026-11-19', period : 'all'}
     ,{date :'2026-11-23', period : '1'}
+    ,{date :'2026-11-26', period : 'all'}
 ]
 
 function getAbsentPeriod(date){
